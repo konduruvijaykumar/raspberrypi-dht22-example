@@ -14,7 +14,7 @@ pi = pigpio.pi()
 dht22 = DHT22.sensor(pi, 27) # use the actual GPIO pin name
 dht22.trigger()
 
-# We have sleep time above 2 seconds bcoz interval for DHT22 sensor to generate date is 2 secs
+# We have sleep time above 2 seconds bcoz interval for DHT22 sensor to generate data is 2 secs
 sleepTime = 3
 
 def readDHT22():
